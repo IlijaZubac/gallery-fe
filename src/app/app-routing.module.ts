@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './shared/login/login.component';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from './layout/layout.component';
-import { RegisterComponent } from './register/register.component';
+import { LayoutComponent } from './shared/layout/layout.component';
+import { RegisterComponent } from './shared/register/register.component';
 
 
 const appRoutes: Routes = [
+  
   {
     path: 'login',
     component: LoginComponent
@@ -14,7 +15,8 @@ const appRoutes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
-  }
+  },
+ 
 ];
 
 

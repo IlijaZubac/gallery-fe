@@ -4,12 +4,12 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
-import { LayoutComponent } from './layout/layout.component';
+import { LayoutComponent } from './shared/layout/layout.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './shared/login/login.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RegisterComponent } from './register/register.component';
+import { RegisterComponent } from './shared/register/register.component';
 import { AuthService } from './auth/auth.service';
 
 

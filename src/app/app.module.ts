@@ -11,6 +11,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './shared/register/register.component';
 import { AuthService } from './auth/auth.service';
+import { AllGalleriesComponent } from './shared/all-galleries/all-galleries.component';
+import { MyGalleriesComponent } from './shared/my-galleries/my-galleries.component';
+import { LogoutComponent } from './shared/logout/logout.component';
+import { CreateGalleriesComponent } from './shared/create-galleries/create-galleries.component';
 
 
 
@@ -20,7 +24,11 @@ import { AuthService } from './auth/auth.service';
     AppComponent,
     LayoutComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AllGalleriesComponent,
+    MyGalleriesComponent,
+    LogoutComponent,
+    CreateGalleriesComponent
   ],
   imports: [
     BrowserModule,

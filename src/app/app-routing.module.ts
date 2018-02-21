@@ -14,7 +14,8 @@ const appRoutes: Routes = [
   
   {
     path: '',
-    component: AllGalleriesComponent
+    component: AllGalleriesComponent,
+    pathMatch: 'full'
   },
   {
     path: 'logout',

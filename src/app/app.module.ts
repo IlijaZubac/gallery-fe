@@ -15,6 +15,7 @@ import { AllGalleriesComponent } from './shared/all-galleries/all-galleries.comp
 import { MyGalleriesComponent } from './shared/my-galleries/my-galleries.component';
 import { LogoutComponent } from './shared/logout/logout.component';
 import { CreateGalleriesComponent } from './shared/create-galleries/create-galleries.component';
+import { GalleryService } from './auth/gallery.service';
 
 
 
@@ -38,7 +39,8 @@ import { CreateGalleriesComponent } from './shared/create-galleries/create-galle
     HttpClientModule
   ],
   providers: [
-    AuthService
+    AuthService,
+    GalleryService
   ],
   bootstrap: [AppComponent]
 })
